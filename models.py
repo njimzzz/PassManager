@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 # Create a base class for declarative class definitions
 Base = declarative_base()
 
-#  Define he Password class
+#  Define the Password class
 class Password(Base):
     # The name of the table in the database
     __tablename__ = 'passwords'
